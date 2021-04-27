@@ -24,6 +24,14 @@ Esta técnica ajuda bastante na previsibilidade de seu código.
 
 Com isso aprendemos a primeira regra deste treinamento: Nunca use (ou pelo menos evite) getters e setters.
 
+## Aula 02
 
+### 2.- Nunca use ELSE
+### 2.1	Early return
+### 2.2 Fail fast
 
-	
+Existe uma métrica muito famosa para saber quão complexo nosso código está. O nome desta métrica é Complexidade Ciclomática.
+
+O cálculo dessa métrica é relativamente complexo, mas basicamente, quanto mais ifs e elses, mais complexo nosso método. Esse cálculo nos diz quantos possíveis caminhos nosso código pode percorrer.
+
+Ao evitar o uso de else, nós escrevemos códigos com uma Complexidade Ciclomática menor.
