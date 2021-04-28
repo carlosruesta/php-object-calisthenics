@@ -64,3 +64,8 @@ Nós não queremos expor todas as funcionalidades de um mapa através de nossa c
 * Aprendemos 2 regras de Object Calisthenics
 	+ Tenha apenas 1 ponto (operador de acesso de objetos) por linha (instrução)
 	+ Não abrevie (nunca)
+	
+## Aula 05
+
+### Reduza o número de propriedades por método
+
