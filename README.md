@@ -35,3 +35,12 @@ Existe uma métrica muito famosa para saber quão complexo nosso código está. 
 O cálculo dessa métrica é relativamente complexo, mas basicamente, quanto mais ifs e elses, mais complexo nosso método. Esse cálculo nos diz quantos possíveis caminhos nosso código pode percorrer.
 
 Ao evitar o uso de else, nós escrevemos códigos com uma Complexidade Ciclomática menor.
+
+## Aula 03
+
+### Envolva seus tipos primitivos, caso eles tenham comportamento 
+
+# Sobre herança
+Herança é um ótimo recurso da programação orientada a objetos, mas deve ser usado com parcimônia.
+Neste link há um exemplo de usos incorretos deste princípio: https://blog.caelum.com.br/como-nao-aprender-orientacao-a-objetos-heranca/amp/
+Nós não queremos expor todas as funcionalidades de um mapa através de nossa classe WatchedVideos. Queremos apenas adicionar vídeos e pegar a data do mais antigo. Sendo assim, nossa classe deve TER um mapa, e não SER um.
