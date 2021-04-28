@@ -40,7 +40,27 @@ Ao evitar o uso de else, nós escrevemos códigos com uma Complexidade Ciclomát
 
 ### Envolva seus tipos primitivos, caso eles tenham comportamento 
 
-# Sobre herança
+### Sobre herança
 Herança é um ótimo recurso da programação orientada a objetos, mas deve ser usado com parcimônia.
 Neste link há um exemplo de usos incorretos deste princípio: https://blog.caelum.com.br/como-nao-aprender-orientacao-a-objetos-heranca/amp/
 Nós não queremos expor todas as funcionalidades de um mapa através de nossa classe WatchedVideos. Queremos apenas adicionar vídeos e pegar a data do mais antigo. Sendo assim, nossa classe deve TER um mapa, e não SER um.
+
+## Aula 04
+
+### Apenas um operador de acesso por instrução. Apenas uma setinha.
+* Com isso aqui vamos favorecer o encapsulamento.
+* Lei de Demeter: não fale com estranhos. Só falar com nossos atributos. 
+* Exceção à regra: Interface fluente. Aquela que permite chamar os métodos da classe encadeados.
+	Mas o método encadeado da classe tem que ser um método que faz sentido chamar de forma encadeada. 
+
+### Não abrevie nunca os nomes
+* Motivos para abreviar:
+	+ classe/método/variável/atributo/objeto muito usado em vários lugares
+	+ o conteúdo faz muita coisa e preciso dar um nome composto
+
+* Reforçamos, novamente, o princípio Tell, Don’t Ask
+* Conhecemos a lei de Demeter
+* Vimos que dar nomes pode ser uma tarefa difícil
+* Aprendemos 2 regras de Object Calisthenics
+	+ Tenha apenas 1 ponto (operador de acesso de objetos) por linha (instrução)
+	+ Não abrevie (nunca)
