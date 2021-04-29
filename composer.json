@@ -11,6 +11,7 @@
     },
     "require": {
         "ext-ds": "*",
-        "phpunit/phpunit": "^9"
+        "phpunit/phpunit": "^9",
+        "infection/infection": "^0.21.5"
     }
 }
